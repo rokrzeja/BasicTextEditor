@@ -14,11 +14,11 @@ public class Test {
          EventQueue.invokeLater(new Runnable() {
 
          	@Override
-			public void run() {
-				Menu option = new Menu();
-			}
+		public void run() {
+		    Menu option = new Menu();
+		}
 
-		});
+	});
+	    
     }
-    
 }

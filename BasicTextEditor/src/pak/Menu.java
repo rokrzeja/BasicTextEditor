@@ -256,47 +256,47 @@ public class Menu extends JFrame implements ActionListener {
         Object source = e.getSource();
 
         // set Foreground
-		if(source == ForegroundButtonArray[0]) {
-			textArea.setForeground(Color.GREEN);
-			foreground.setForeground( Color.GREEN );
+	if(source == ForegroundButtonArray[0]) {
+	    textArea.setForeground(Color.GREEN);
+	    foreground.setForeground( Color.GREEN );
             foreground.setVisible(true);
-		}
+	}
 
-		else if(source == ForegroundButtonArray[1]) {
-		    textArea.setForeground(Color.ORANGE);
-		    foreground.setForeground( Color.ORANGE );
-		    foreground.setVisible(true);
-		}
+	else if(source == ForegroundButtonArray[1]) {
+	    textArea.setForeground(Color.ORANGE);
+	    foreground.setForeground( Color.ORANGE );
+	    foreground.setVisible(true);
+	}
 
-		else if(source == ForegroundButtonArray[2]) {
-			textArea.setForeground(Color.RED);
-			foreground.setForeground( Color.RED );
-			foreground.setVisible(true);
-		}
+	else if(source == ForegroundButtonArray[2]) {
+	    textArea.setForeground(Color.RED);
+            foreground.setForeground( Color.RED );
+	    foreground.setVisible(true);
+	}
 
-		else if(source == ForegroundButtonArray[3]) {
+	else if(source == ForegroundButtonArray[3]) {
             textArea.setForeground(Color.BLACK);
             foreground.setForeground(Color.BLACK);
             foreground.setVisible(true);
         }
                 
-		else if(source == ForegroundButtonArray[4]) {
-			textArea.setForeground(Color.WHITE);
-			foreground.setForeground( Color.WHITE );
-			foreground.setVisible(true);
-		}
+	else if(source == ForegroundButtonArray[4]) {
+	    textArea.setForeground(Color.WHITE);
+            foreground.setForeground( Color.WHITE );
+	    foreground.setVisible(true);
+	}
                 
-		else if(source == ForegroundButtonArray[5]) {
-			textArea.setForeground(Color.yellow);
-			foreground.setForeground( Color.YELLOW );
-			foreground.setVisible(true);
-		}
+	else if(source == ForegroundButtonArray[5]) {
+       	    textArea.setForeground(Color.yellow);
+	    foreground.setForeground( Color.YELLOW );
+	    foreground.setVisible(true);
+	}
                 
-		else if(source == ForegroundButtonArray[6]) {
-			textArea.setForeground(Color.BLUE);
-			foreground.setForeground( Color.BLUE );
-			foreground.setVisible(true);
-		}
+	else if(source == ForegroundButtonArray[6]) {
+	    textArea.setForeground(Color.BLUE);
+	    foreground.setForeground( Color.BLUE );
+	    foreground.setVisible(true);
+	}
                 
         // set foreground
         else if(source == backgroundButtonArray[0]) {
@@ -311,35 +311,35 @@ public class Menu extends JFrame implements ActionListener {
             background.setVisible(true);
         }
 
-		else if(source == backgroundButtonArray[2]) {
-			textArea.setBackground(Color.RED);
-			background.setForeground( Color.RED );
-			background.setVisible(true);
-		}
+	else if(source == backgroundButtonArray[2]) {
+	    textArea.setBackground(Color.RED);
+	    background.setForeground( Color.RED );
+	    background.setVisible(true);
+	}
 
-		else if(source == backgroundButtonArray[3]) {
-			textArea.setBackground(Color.BLACK);
-			background.setForeground( Color.BLACK);
-			background.setVisible(true);
-		}
+	else if(source == backgroundButtonArray[3]) {
+	    textArea.setBackground(Color.BLACK);
+	    background.setForeground( Color.BLACK);
+	    background.setVisible(true);
+	}
                 
-		else if(source == backgroundButtonArray[4]) {
-			textArea.setBackground(Color.WHITE);
-			background.setForeground( Color.WHITE );
-			background.setVisible(true);
-		}
+	else if(source == backgroundButtonArray[4]) {
+	    textArea.setBackground(Color.WHITE);
+	    background.setForeground( Color.WHITE );
+	    background.setVisible(true);
+	}
                 
-		else if(source == backgroundButtonArray[5]) {
-			textArea.setBackground(Color.yellow);
-			background.setForeground( Color.YELLOW );
-			background.setVisible(true);
-		}
+	else if(source == backgroundButtonArray[5]) {
+	    textArea.setBackground(Color.yellow);
+	    background.setForeground( Color.YELLOW );
+	    background.setVisible(true);
+	}
                 
-		else if(source == backgroundButtonArray[6]) {
-			textArea.setBackground(Color.BLUE);
-			background.setForeground( Color.BLUE );
-			background.setVisible(true);
-		}
+	else if(source == backgroundButtonArray[6]) {
+	    textArea.setBackground(Color.BLUE);
+	    background.setForeground( Color.BLUE );
+	    background.setVisible(true);
+	}
 
 
 		// set font

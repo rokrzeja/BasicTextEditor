@@ -341,8 +341,7 @@ public class Menu extends JFrame implements ActionListener {
 	    background.setVisible(true);
 	}
 
-
-		// set font
+	// set font
         else if (source == fontArray[0]) {
             Font font = new Font("Helvetica", Font.BOLD, 8);
             textArea.setFont(font);
@@ -384,8 +383,7 @@ public class Menu extends JFrame implements ActionListener {
             this.font.setText("16");
             this.font.setVisible(true);
         }
-                
-                    
+        
         else if (source == fontArray[5]) {
             Font font = new Font("Helvetica", Font.BOLD, 18);
             textArea.setFont(font);
@@ -401,8 +399,7 @@ public class Menu extends JFrame implements ActionListener {
             this.font.setText("20");
             this.font.setVisible(true);
         }
-                
-                    
+                       
         else if (source == fontArray[7]) {
             Font font = new Font("Helvetica", Font.BOLD, 22);
             textArea.setFont(font);

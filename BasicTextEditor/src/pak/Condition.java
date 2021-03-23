@@ -7,7 +7,6 @@ package pak;
 
 public enum Condition {
     
-    
     Modified,
     Saved,
     New
